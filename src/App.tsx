@@ -56,7 +56,11 @@ function App() {
                   <Award className="w-10 h-10 text-white" />
                 </div> */}
                 <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+<<<<<<< HEAD
                   Cattle & Buffalo Breed Identifier
+=======
+                  AI Breed Classifier using machine learnign
+>>>>>>> 4c0b42026ada998267e9ee26f3c05790ae546c82
                 </h1>
                 <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
                   Advanced ML-powered identification system for cattle and buffalo breeds with market insights
