@@ -45,7 +45,7 @@ function App() {
                   <Award className="w-10 h-10 text-white" />
                 </div>
                 <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-                  AI Breed Classifier using machine learnign
+                  
                 </h1>
                 <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
                   Advanced ML-powered identification system for cattle and buffalo breeds with market insights
