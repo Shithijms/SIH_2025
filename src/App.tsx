@@ -38,14 +38,25 @@ function App() {
       case 'home':
         return (
           <div className="min-h-screen bg-gradient-to-br from-green-50 to-blue-50">
+ 
+            
             <div className="container mx-auto px-4 py-8">
+              <div className="relative w-full h-[400px]"> {/* fixed height */}
+                  <img
+                    src="https://th.bing.com/th/id/OIP.6K8eiwBPKmvUj7Dem8aaQgHaE7?w=262&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                    alt="Background"
+                    className="w-full h-full object-cover"
+                  />
+              <div className="absolute inset-0 bg-white/30 backdrop-blur-sm"></div>
+            </div>
+
               {/* Hero Section */}
               <div className="text-center mb-12">
-                <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-r from-green-600 to-blue-600 rounded-2xl mb-6">
+                {/* <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-r from-green-600 to-blue-600 rounded-2xl mb-6">
                   <Award className="w-10 h-10 text-white" />
-                </div>
+                </div> */}
                 <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-                  AI Breed Classifier
+                  Cattle & Buffalo Breed Identifier
                 </h1>
                 <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
                   Advanced ML-powered identification system for cattle and buffalo breeds with market insights

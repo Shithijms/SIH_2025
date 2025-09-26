@@ -151,7 +151,7 @@ const ClassificationHistory: React.FC<ClassificationHistoryProps> = ({ history, 
               className="px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
             >
               <option value="date">Sort by Date</option>
-              <option value="confidence">Sort by Confidence</option>
+              {/* <option value="confidence">Sort by Confidence</option> */}
               <option value="breed">Sort by Breed</option>
             </select>
           </div>
@@ -206,7 +206,7 @@ const ClassificationHistory: React.FC<ClassificationHistoryProps> = ({ history, 
                       </div>
                     </div>
 
-                    <div>
+                    {/* <div>
                       <span className="text-sm text-gray-600 mb-2 block">Key Characteristics</span>
                       <div className="flex flex-wrap gap-2">
                         {item.characteristics.slice(0, 4).map((char, charIndex) => (
@@ -220,7 +220,7 @@ const ClassificationHistory: React.FC<ClassificationHistoryProps> = ({ history, 
                           </span>
                         )}
                       </div>
-                    </div>
+                    </div> */}
 
                     <div className="flex items-center justify-between pt-4 border-t border-gray-200">
                       <div className="flex items-center gap-3">
