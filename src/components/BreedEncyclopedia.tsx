@@ -28,7 +28,7 @@ const BreedEncyclopedia: React.FC<BreedEncyclopediaProps> = ({ onBack }) => {
       name: 'Jersey',
       category: 'Dairy Cattle',
       origin: 'Jersey Island',
-      image: 'https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg',
+      image: 'https://th.bing.com/th/id/OIP.WPjp-vIdwK2nbLuKs3l_oAHaE8?w=288&h=192&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
       description: 'Small to medium-sized dairy breed known for rich milk with high butterfat content.',
       characteristics: ['High butterfat content', 'Heat tolerance', 'Efficient feed conversion', 'Docile nature'],
       weight: '350-400 kg',
